@@ -23,7 +23,7 @@
         // conecta no socket ( ouvindo conexao via socket )
         // var socket = io('http://localhost:5000/websocket');
         
-        var socket = io('http://localhost:5000/websocket', {
+        var socket = io('/websocket', {
                         extraHeaders: {
                             idroom: '<%- room._id %>',
                             Authorization: "Bearer authorization_token_here"
