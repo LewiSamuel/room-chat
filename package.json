@@ -1,0 +1,30 @@
+{
+    "name": "room-chat",
+    "version": "1.0.0",
+    "description": "room-chat",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "NODE_ENV=production node src/index.js",
+        "dev": "NODE_ENV=development nodemon src/index.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "^5.0.0",
+        "cors": "^2.8.5",
+        "dotenv": "^8.2.0",
+        "ejs": "^3.1.5",
+        "express": "^4.17.1",
+        "express-formidable": "^1.2.0",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^5.11.15",
+        "multer": "^1.4.2",
+        "sequelize": "^6.3.4",
+        "sharp": "^0.27.1",
+        "socket.io": "^3.1.1",
+        "sqlite3": "^5.0.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.4"
+    }
+}

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Salas</title>
+</head>
+<body>
+    <ul>
+        <% rooms.forEach(function(room) { %>
+            <li>
+                <strong><%= room.Title %></strong> <br />
+                <a href="/ws/room/<%= room._id %>">/ws/room/<%= room._id %></a>
+            </li>
+        <% }); %>
+    </ul>
+</body>
+</html>
